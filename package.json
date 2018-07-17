@@ -1,0 +1,26 @@
+{
+  "name": "reactServerRender",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Anna Selivanova <foxy.eyed@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint index.js ./src/**.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.1.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "superagent": "^3.8.3"
+  },
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "2.12.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-react": "7.9.1"
+  }
+}
