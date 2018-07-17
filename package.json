@@ -5,13 +5,14 @@
   "author": "Anna Selivanova <foxy.eyed@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint index.js ./src/**.js"
+    "lint": "eslint render.js server.js ./src/**.js"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "bootstrap": "^4.1.2",
+    "babel-register": "^6.26.0",
+    "express": "^4.16.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "superagent": "^3.8.3"
